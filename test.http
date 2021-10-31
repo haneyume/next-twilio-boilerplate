@@ -1,0 +1,22 @@
+@url=http://localhost:3000
+
+
+###
+
+GET {{url}}/api/createConversations
+
+###
+
+GET {{url}}/api/addParticipants
+
+###
+
+GET {{url}}/api/getToken?id=1234
+
+###
+
+GET {{url}}/api/addParticipants?conv=CH27c27c4a885c4adfb779c7180c99e9db&id=abcd
+
+###
+
+GET {{url}}/api/createDirectMessage?user1=1234&user2=bbb
